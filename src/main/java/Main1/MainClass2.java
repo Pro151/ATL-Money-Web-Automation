@@ -17,10 +17,10 @@ public class MainClass2 {
         tfa.TwofactAuth();
 
         ForgotPassword fPwd = new ForgotPassword();
-        fPwd.FrgtPwd();*/
+        fPwd.FrgtPwd();
 
         RegisterNewUser2FAAuto reg = new RegisterNewUser2FAAuto();
-        reg.RegisterAuto();
+        reg.RegisterAuto();*/
 
 
 
