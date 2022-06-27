@@ -3,11 +3,13 @@ package main.java.ConfigFile;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
 public class ConfigAuto {
 
+    @Test
     public WebDriver configAuto1() {
 
         System.setProperty("webdriver.chrome.driver",

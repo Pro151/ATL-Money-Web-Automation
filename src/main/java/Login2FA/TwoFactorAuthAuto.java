@@ -5,9 +5,11 @@ import main.java.ConfigFile.ConfigAuto;
 import main.java.Login.LoginAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 public class TwoFactorAuthAuto extends LoginAuto {
 
+    @Test
     public void TwofactAuth() {
 
         WebDriver driver = configAuto1();
@@ -28,6 +30,6 @@ public class TwoFactorAuthAuto extends LoginAuto {
         }
         driver.findElement(By.className("btn-success")).click();
 
-
+        driver.close();
     }
 }

@@ -3,12 +3,13 @@ package main.java.Login;
 import main.java.ConfigFile.ConfigAuto;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Test;
 
 
 public class LoginAuto extends ConfigAuto {
 
 
-
+    @Test
     public LoginAuto loginA(){
 
         WebDriver driver=configAuto1();
@@ -20,7 +21,7 @@ public class LoginAuto extends ConfigAuto {
         driver.findElement(By.xpath("//i[@id='eye']")).click();
         driver.findElement(By.className("btn-login")).click();
 
-
+        driver.close();
         return null;
     }
 

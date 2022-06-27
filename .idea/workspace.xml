@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DashboardAuto/DashboardAutomationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DocumentUploadVerificationAuto/DocUploadVerifyAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Login/ForgotPassword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/PreferanceAuto/PreferanceChangeAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ProfileAndContactDetailsUpdateAuto/ProfileContactAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SendMoneyAuto/SendingMoneyAuto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CompleteFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Listeners.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditRecipientAuto/EditRecipientAuto1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,14 +46,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml">
     <configuration name="MainClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="main.java.Main1.MainClass2" />
       <module name="ATLMoneyWebAuto" />
@@ -72,8 +69,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATLMoneyWebAuto" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml" />
         <item itemvalue="Application.MainClass2" />
       </list>
     </recent_temporary>
@@ -99,5 +107,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
