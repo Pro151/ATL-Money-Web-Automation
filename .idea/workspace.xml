@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/SendMoneyFunctionalityFromWebPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main1/MainClass2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ButtonAndLinksClickable.clickableAuto (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATLMoneyWebAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.BetaATLMTwebPageClicks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.BetaATLMTwebPageClicks" />
+      <option name="MAIN_CLASS_NAME" value="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable" />
+      <option name="METHOD_NAME" value="clickableAuto" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ButtonAndLinksClickable.clickableAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
@@ -111,6 +126,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto" />
+        <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto (1)" />
         <item itemvalue="TestNG.RegisterNewUser2FAAuto" />
         <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml" />
         <item itemvalue="Application.MainClass2" />
