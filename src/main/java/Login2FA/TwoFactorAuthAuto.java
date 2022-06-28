@@ -30,6 +30,7 @@ public class TwoFactorAuthAuto extends LoginAuto {
         }
         driver.findElement(By.className("btn-success")).click();
 
+
         driver.close();
     }
 }

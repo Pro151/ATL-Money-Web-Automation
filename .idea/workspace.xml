@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,20 +50,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml">
-    <configuration name="MainClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.java.Main1.MainClass2" />
-      <module name="ATLMoneyWebAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.Main1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Reset2FA.ResetTwoFactorAuto">
     <configuration name="ButtonAndLinksClickable.clickableAuto (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
@@ -111,7 +97,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegisterNewUser2FAAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegisterNewUser2FAAuto (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
         <pattern>
@@ -128,13 +114,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Reset2FA.ResetTwoFactorAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATLMoneyWebAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Login2FA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.Login2FA" />
+      <option name="MAIN_CLASS_NAME" value="main.java.Login2FA.Reset2FA" />
+      <option name="METHOD_NAME" value="ResetTwoFactorAuto" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Reset2FA.ResetTwoFactorAuto" />
+        <item itemvalue="TestNG.RegisterNewUser2FAAuto (1)" />
         <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml" />
         <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto" />
         <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto (1)" />
-        <item itemvalue="TestNG.RegisterNewUser2FAAuto" />
-        <item itemvalue="Application.MainClass2" />
       </list>
     </recent_temporary>
   </component>

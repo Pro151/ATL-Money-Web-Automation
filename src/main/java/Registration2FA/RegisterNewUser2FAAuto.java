@@ -65,7 +65,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
 
-        Object[][] data1 = new Object[3][3];
+        Object[][] data1 = new Object[6][3];
         //1st set
         data1[0][0] = "qa7777@yopmail.com";
         data1[0][1] = "Qa123!";
@@ -92,9 +92,9 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //4th set
-        data1[2][0]="qa444@yopmail.com";
-        data1[2][1]="Qa123!";
-        data1[2][2]="Qa123!";
+        data1[3][0]="qa444@yopmail.com";
+        data1[3][1]="Qa123!";
+        data1[3][2]="Qa123!";
 
         try {
             Thread.sleep(1000);
@@ -103,9 +103,9 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //5th set
-        data1[2][0]="qa555@yopmail.com";
-        data1[2][1]="Qa123!";
-        data1[2][2]="Qa123!";
+        data1[4][0]="qa555@yopmail.com";
+        data1[4][1]="Qa123!";
+        data1[4][2]="Qa123!";
 
         try {
             Thread.sleep(1000);
@@ -114,9 +114,9 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //6th set
-        data1[2][0]="qa999@yopmail.com";
-        data1[2][1]="Qa123!";
-        data1[2][2]="Qa123!";
+        data1[5][0]="qa999@yopmail.com";
+        data1[5][1]="Qa123!";
+        data1[5][2]="Qa123!";
 
         try {
             Thread.sleep(1000);

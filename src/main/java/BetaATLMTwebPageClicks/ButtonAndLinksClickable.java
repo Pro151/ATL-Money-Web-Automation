@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class ButtonAndLinksClickable extends ConfigAuto {
 
-    @BeforeTest
+    @Test
     public void clickableAuto() throws InterruptedException {
 
         //click on how it works?
@@ -142,7 +142,7 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         }
 
         JavascriptExecutor js4 = (JavascriptExecutor) driver;
-        js4.executeScript("window.scrollBy(0,3300)");
+        js4.executeScript("window.scrollBy(0,3600)");
 
 
         WebElement ele1 = driver.findElement(By.xpath("//*[@id=\"main\"]/section[4]/div/div[2]/div/div/div[1]/div/h4"));
@@ -178,7 +178,7 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         }
 
         JavascriptExecutor js5 = (JavascriptExecutor) driver;
-        js5.executeScript("window.scrollBy(0,500)");
+        js5.executeScript("window.scrollBy(0,700)");
 
         //video play
         driver.findElement(By.xpath("//*[@id=\"main\"]/section[5]/div/div/div/a")).click();
