@@ -9,6 +9,7 @@
 
     <test verbose="2" preserve-order="true" name="C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto">
         <classes>
+
             <class name="main.java.ConfigFile.ConfigAuto">
                 <methods>
                     <include name="configAuto1"/>
@@ -34,6 +35,12 @@
                     <include name="RegisterAuto"/>
                 </methods>
             </class>
+            <class name="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable">
+                <methods>
+                    <include name="clickableAuto"/>
+                </methods>
+            </class>
+
         </classes>
     </test>
 </suite>

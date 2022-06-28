@@ -6,11 +6,12 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 public class ButtonAndLinksClickable extends ConfigAuto {
 
-    @Test
+    @BeforeTest
     public void clickableAuto() throws InterruptedException {
 
         //click on how it works?
@@ -21,6 +22,47 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        driver.findElement(By.xpath("//*[@id=\"hero\"]/div/div/div[2]/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        JavascriptExecutor jse2 = (JavascriptExecutor) driver;
+        jse2.executeScript("arguments[0].click()",
+                driver.findElement(By.cssSelector("body > div.vbox-overlay > div.vbox-container > div")));
+
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -100,7 +142,7 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         }
 
         JavascriptExecutor js4 = (JavascriptExecutor) driver;
-        js4.executeScript("window.scrollBy(0,3000)");
+        js4.executeScript("window.scrollBy(0,3300)");
 
 
         WebElement ele1 = driver.findElement(By.xpath("//*[@id=\"main\"]/section[4]/div/div[2]/div/div/div[1]/div/h4"));
@@ -135,6 +177,50 @@ public class ButtonAndLinksClickable extends ConfigAuto {
             throw new RuntimeException(e);
         }
 
+        JavascriptExecutor js5 = (JavascriptExecutor) driver;
+        js5.executeScript("window.scrollBy(0,500)");
+
+        //video play
+        driver.findElement(By.xpath("//*[@id=\"main\"]/section[5]/div/div/div/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        JavascriptExecutor jse3 = (JavascriptExecutor) driver;
+        jse3.executeScript("arguments[0].click()",
+                driver.findElement(By.cssSelector("body > div.vbox-overlay > div.vbox-container > div")));
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         driver.quit();
 
 
