@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/testngParameterizing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testngSanity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/TwoFactorAuthAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,34 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.Reset2FA.ResetTwoFactorAuto">
-    <configuration name="ButtonAndLinksClickable.clickableAuto (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATLMoneyWebAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.BetaATLMTwebPageClicks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.BetaATLMTwebPageClicks" />
-      <option name="MAIN_CLASS_NAME" value="main.java.BetaATLMTwebPageClicks.ButtonAndLinksClickable" />
-      <option name="METHOD_NAME" value="clickableAuto" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Promit\Downloads\Test\Projects\ATL MT\ATLMoneyWebAuto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testngSanity.xml">
     <configuration name="ButtonAndLinksClickable.clickableAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
@@ -87,9 +76,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testngSanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testngSanity.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -108,6 +97,24 @@
       <option name="PACKAGE_NAME" value="main.java.Registration2FA" />
       <option name="MAIN_CLASS_NAME" value="main.java.Registration2FA.RegisterNewUser2FAAuto" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterNewUser2FAAuto.RegisterAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATLMoneyWebAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.Registration2FA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.Registration2FA" />
+      <option name="MAIN_CLASS_NAME" value="main.java.Registration2FA.RegisterNewUser2FAAuto" />
+      <option name="METHOD_NAME" value="RegisterAuto" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -134,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testngSanity.xml" />
+        <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto" />
+        <item itemvalue="TestNG.RegisterNewUser2FAAuto.RegisterAuto" />
         <item itemvalue="TestNG.Reset2FA.ResetTwoFactorAuto" />
         <item itemvalue="TestNG.RegisterNewUser2FAAuto (1)" />
-        <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testng.xml" />
-        <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto" />
-        <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto (1)" />
       </list>
     </recent_temporary>
   </component>

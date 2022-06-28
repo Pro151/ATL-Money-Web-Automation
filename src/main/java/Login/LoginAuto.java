@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 public class LoginAuto extends ConfigAuto {
 
 
-    @Test
+    @Test(groups = {"sanity"})
     public LoginAuto loginA(){
 
         WebDriver driver=configAuto1();

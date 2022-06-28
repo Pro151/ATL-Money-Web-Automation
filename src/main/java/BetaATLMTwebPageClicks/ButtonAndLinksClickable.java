@@ -142,7 +142,7 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         }
 
         JavascriptExecutor js4 = (JavascriptExecutor) driver;
-        js4.executeScript("window.scrollBy(0,3600)");
+        js4.executeScript("window.scrollBy(0,4000)");
 
 
         WebElement ele1 = driver.findElement(By.xpath("//*[@id=\"main\"]/section[4]/div/div[2]/div/div/div[1]/div/h4"));
@@ -178,7 +178,7 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         }
 
         JavascriptExecutor js5 = (JavascriptExecutor) driver;
-        js5.executeScript("window.scrollBy(0,700)");
+        js5.executeScript("window.scrollBy(0,1000)");
 
         //video play
         driver.findElement(By.xpath("//*[@id=\"main\"]/section[5]/div/div/div/a")).click();
@@ -202,6 +202,8 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -221,6 +223,108 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+
+        JavascriptExecutor js7 = (JavascriptExecutor) driver;
+        js7.executeScript("window.scrollBy(0,2200)");
+
+
+        //all
+        driver.findElement(By.id("pills-all-tab")).click();
+        driver.findElement(By.xpath("//*[@id=\"pills-all\"]/div[1]/div[2]/div[1]/div[1]/ul/li/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.getTitle();
+        driver.navigate().back();
+        driver.findElement(By.xpath("//*[@id=\"pills-all\"]/div[1]/div[2]/div[1]/div[2]/ul/li/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.getTitle();
+        driver.navigate().back();
+        driver.findElement(By.xpath("//*[@id=\"pills-all\"]/div[1]/div[2]/div[1]/div[3]/ul/li/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.getTitle();
+        driver.navigate().back();
+        driver.findElement(By.xpath("//*[@id=\"pills-all\"]/div[1]/div[2]/div[1]/div[4]/ul/li/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.getTitle();
+        driver.navigate().back();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        driver.findElement(By.xpath("//*[@id=\"pills-all\"]/div[2]/div[2]/div/div[1]/ul/li/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.getTitle();
+        driver.navigate().back();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+
+        driver.findElement(By.xpath("//*[@id=\"pills-all\"]/div[2]/div[2]/div/div[2]/ul/li/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.getTitle();
+        driver.navigate().back();
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+
+        //africa
+        driver.findElement(By.id("pills-africa-tab")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        //asia
+        driver.findElement(By.id("pills-asia-tab")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        //europe
+        driver.findElement(By.id("pills-europe-tab")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
         driver.quit();
 
 
