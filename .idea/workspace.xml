@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/testngParameterizing.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testngSanity.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/ButtonAndLinksClickable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login/LoginAuto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Login2FA/Reset2FA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Registration2FA/RegisterNewUser2FAAuto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +52,7 @@
       <recent name="C:\Users\Promit\Downloads\Test\Projects\ATL MT\ATLMoneyWebAuto" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testngSanity.xml">
+  <component name="RunManager" selected="TestNG.ButtonAndLinksClickable.clickableAuto">
     <configuration name="ButtonAndLinksClickable.clickableAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
@@ -141,8 +136,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testngSanity.xml" />
         <item itemvalue="TestNG.ButtonAndLinksClickable.clickableAuto" />
+        <item itemvalue="TestNG.C:/Users/Promit/Downloads/Test/Projects/ATL MT/ATLMoneyWebAuto/testngSanity.xml" />
         <item itemvalue="TestNG.RegisterNewUser2FAAuto.RegisterAuto" />
         <item itemvalue="TestNG.Reset2FA.ResetTwoFactorAuto" />
         <item itemvalue="TestNG.RegisterNewUser2FAAuto (1)" />

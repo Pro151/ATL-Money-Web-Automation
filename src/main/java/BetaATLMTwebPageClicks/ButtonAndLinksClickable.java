@@ -108,8 +108,61 @@ public class ButtonAndLinksClickable extends ConfigAuto {
             throw new RuntimeException(e);
         }
 
-        driver.navigate().back();
+        driver.findElement(By.xpath("//*[@id=\"faq\"]/div/div[3]/div/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
 
+        JavascriptExecutor js0 = (JavascriptExecutor) driver;
+        js0.executeScript("window.scrollBy(0,500)");
+
+        driver.findElement(By.xpath("//*[@id=\"accordion\"]/div[1]/div/h5/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        JavascriptExecutor js00 = (JavascriptExecutor) driver;
+        js00.executeScript("window.scrollBy(0,1000)");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.navigate().back();
+        driver.findElement(By.xpath("//*[@id=\"accordion\"]/div[2]/div/h5/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        JavascriptExecutor js01 = (JavascriptExecutor) driver;
+        js01.executeScript("window.scrollBy(0,1000)");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        driver.navigate().back();
+        driver.findElement(By.xpath("//*[@id=\"accordion\"]/div[3]/div/h5/a")).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        JavascriptExecutor js02 = (JavascriptExecutor) driver;
+        js02.executeScript("window.scrollBy(0,1000)");
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        driver.navigate().back();
+        driver.navigate().back();
+        driver.navigate().back();
         JavascriptExecutor js1 = (JavascriptExecutor) driver;
         js1.executeScript("window.scrollBy(0,1200)");
 
@@ -142,7 +195,7 @@ public class ButtonAndLinksClickable extends ConfigAuto {
         }
 
         JavascriptExecutor js4 = (JavascriptExecutor) driver;
-        js4.executeScript("window.scrollBy(0,4000)");
+        js4.executeScript("window.scrollBy(0,3600)");
 
 
         WebElement ele1 = driver.findElement(By.xpath("//*[@id=\"main\"]/section[4]/div/div[2]/div/div/div[1]/div/h4"));
