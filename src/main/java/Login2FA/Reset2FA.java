@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class Reset2FA extends LoginAuto {
 
-    @Test(groups = {"sanity"})
+    @Test
     public void ResetTwoFactorAuto() {
 
         WebDriver driver = configAuto1();

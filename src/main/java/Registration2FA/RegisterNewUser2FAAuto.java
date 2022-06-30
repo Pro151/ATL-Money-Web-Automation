@@ -48,20 +48,24 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-        WebElement msg = driver.findElement(By.xpath("//div[@class='header']"));
-        String text = msg.getText();
-        System.out.println(text);
+        WebElement msg=null;
+        String text = "";
         String expectedText = "Oops! something wasn't correct";
-        Assert.assertEquals(text, expectedText);
+        if (driver.getTitle().toString().equals("Register")) {
+            msg = driver.findElement(By.xpath("//div[@class='header']"));
+            text = msg.getText();
+            System.out.println(text);
+            Assert.assertEquals(text, expectedText);
+        } else {
+            msg = driver.findElement(By.xpath("/html/body/div/div/div[2]/div/h2"));
+            text = msg.getText();
+        }
 
         if (text.equals(expectedText)) {
-
             System.out.println("Matched");
             driver.findElement(By.xpath("/html/body/main/div/div/div/div/div/div[2]/div/p[2]/a")).click();
-            driver.getTitle();
-        } else if(Objects.equals(driver.getTitle(), "Thank you!")){
-
-            System.out.println("Registration success");
+        } else if (text.equals("Two-Factor Authentication")) {
+            System.out.println("Register success");
             driver.navigate().back();
         }
 
@@ -87,13 +91,14 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
 
-        Object[][] data1 = new Object[6][3];
+        Object[][] data1 = new Object[1][3];
         //1st set
-        data1[0][0] = "qa11177@yopmail.com";
+        //1st set
+        data1[0][0] = "q8481899452@yopmail.com";
         data1[0][1] = "Qa123!";
         data1[0][2] = "Qa123!";
-        //2nd set
-        data1[1][0] = "qa222@yopmail.com";
+        /*//2nd set
+        data1[1][0] = "q88222@yopmail.com";
         data1[1][1] = "Qa123!";
         data1[1][2] = "Qa123!";
         try {
@@ -103,7 +108,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //3rd set
-        data1[2][0]="qa333888@yopmail.com";
+        data1[2][0]="q333222@yopmail.com";
         data1[2][1]="Qa123!";
         data1[2][2]="Qa123!";
 
@@ -114,7 +119,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //4th set
-        data1[3][0]="qa444222@yopmail.com";
+        data1[3][0]="qa44433222@yopmail.com";
         data1[3][1]="Qa123!";
         data1[3][2]="Qa123!";
 
@@ -125,7 +130,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //5th set
-        data1[4][0]="qa555111@yopmail.com";
+        data1[4][0]="qa888999@yopmail.com";
         data1[4][1]="Qa123!";
         data1[4][2]="Qa123!";
 
@@ -136,7 +141,7 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
         }
 
         //6th set
-        data1[5][0]="qa222@yopmail.com";
+        data1[5][0]="qa223399@yopmail.com";
         data1[5][1]="Qa123!";
         data1[5][2]="Qa123!";
 
@@ -144,13 +149,11 @@ public class RegisterNewUser2FAAuto extends ConfigAuto {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
-        }
+        }*/
         return data1;
 
 
     }
-
-
 
 
 }

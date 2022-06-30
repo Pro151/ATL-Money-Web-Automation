@@ -15,8 +15,8 @@ public class TwoFactorAuthAuto extends LoginAuto {
         WebDriver driver = configAuto1();
 
         driver.findElement(By.className("login-btn")).click();
-        driver.findElement(By.id("email")).sendKeys("qa222@yopmail.com");
-        driver.findElement(By.id("inputPassword")).sendKeys("Qa123!@");
+        driver.findElement(By.id("email")).sendKeys("qa2222@yopmail.com");
+        driver.findElement(By.id("inputPassword")).sendKeys("Qa123!");
         driver.findElement(By.xpath("//i[@id='eye']")).click();
         driver.findElement(By.className("btn-login")).click();
 

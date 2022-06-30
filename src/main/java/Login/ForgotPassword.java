@@ -13,7 +13,7 @@ public class ForgotPassword extends ConfigAuto{
         WebDriver driver = configAuto1();
         driver.findElement(By.className("login-btn")).click();
         driver.findElement(By.linkText("Forgot Password?")).click();
-        driver.findElement(By.id("inputEmail")).sendKeys("qa222@yopmail.com");
+        driver.findElement(By.id("inputEmail")).sendKeys("qa2222@yopmail.com");
         driver.findElement(By.className("btn-success")).click();
 
         try {
