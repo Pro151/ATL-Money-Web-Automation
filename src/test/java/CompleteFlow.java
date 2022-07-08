@@ -14,7 +14,7 @@ public class CompleteFlow extends ConfigAuto {
 
         WebDriver driver = configAuto1();
         driver.findElement(By.xpath("//*[@id=\"header\"]/div[1]/nav/ul[2]/li[1]/a")).click();
-        driver.findElement(By.id("email")).sendKeys("qa222@yopmail.com");
+        driver.findElement(By.id("email")).sendKeys("qa9999@yopmail.com");
         driver.findElement(By.id("password")).sendKeys("Qa123!");
         driver.findElement(By.xpath("//i[@id='eye2']")).click();
         driver.findElement(By.id("confirm-password")).sendKeys("Qa123!");
@@ -36,7 +36,7 @@ public class CompleteFlow extends ConfigAuto {
 
             System.out.println("Matched");
             driver.findElement(By.xpath("/html/body/main/div/div/div/div/div/div[2]/div/p[2]/a")).click();
-            driver.findElement(By.id("email")).sendKeys("qa222@yopmail.com");
+            driver.findElement(By.id("email")).sendKeys("qa9999@yopmail.com");
             driver.findElement(By.id("inputPassword")).sendKeys("Qa123!");
             driver.findElement(By.xpath("//i[@id='eye']")).click();
             driver.findElement(By.className("btn-login")).click();

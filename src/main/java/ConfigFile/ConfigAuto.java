@@ -5,6 +5,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
 import java.util.concurrent.TimeUnit;
 
 public class ConfigAuto {
@@ -28,6 +30,21 @@ public class ConfigAuto {
         driver.findElement(By.className("btn-login")).click();*/
 
         return driver;
+    }
+
+    /*
+     * utility function for file picker*/
+    public void filePicker(String filePath) throws AWTException, InterruptedException {
+        StringSelection s = new StringSelection(filePath);
+        Toolkit.getDefaultToolkit().getSystemClipboard().setContents(s, null);
+        Robot robot = new Robot();
+        robot.keyPress(java.awt.event.KeyEvent.VK_ENTER);
+        robot.keyRelease(java.awt.event.KeyEvent.VK_ENTER);
+        robot.keyPress(java.awt.event.KeyEvent.VK_CONTROL);
+        robot.keyPress(java.awt.event.KeyEvent.VK_V);
+        robot.keyRelease(java.awt.event.KeyEvent.VK_CONTROL);
+        Thread.sleep(3000);
+        robot.keyPress(java.awt.event.KeyEvent.VK_ENTER);
     }
 
 }
