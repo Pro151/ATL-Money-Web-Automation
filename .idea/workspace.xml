@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e6bffddd-3e69-45c3-9d37-f8bd509abe7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SettingsAuto/SettingsAuto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExistingUserCompleteFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientAccountTx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientMobileWallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipientOTCCashTx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/SendMoneyFunctionalityFromWebPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BetaATLMTwebPageClicks/SendMoneyFunctionalityFromWebPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConfigFile/ConfigAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AddRecipientAuto/AddRecipient.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DashboardAuto/DashboardAutomationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DashboardAuto/DashboardAutomationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DocumentUploadVerificationAuto/DocUploadVerifyAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DocumentUploadVerificationAuto/DocUploadVerifyAuto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditContactDetails/UpdateContactAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/EditProfile/UpdateProfileAuto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CompleteFlow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CompleteFlow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,52 +60,18 @@
       <recent name="C:\Users\Promit\Downloads\Test\Projects\ATL MT\ATLMoneyWebAuto" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DocUploadVerifyAuto.UploadAutoDemo">
-    <configuration name="DashboardAutomationTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UpdateContactAuto.editContact">
+    <configuration name="AddRecipientOTCCashTx.OTCCashTrans" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.DashboardAuto.*" />
+          <option name="PATTERN" value="main.java.AddRecipientAuto.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.DashboardAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.DashboardAuto.DashboardAutomationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashboardAutomationTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATLMoneyWebAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.DashboardAuto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.DashboardAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.DashboardAuto.DashboardAutomationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashboardAutomationTest.DashAuto" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ATLMoneyWebAuto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="main.java.DashboardAuto.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="main.java.DashboardAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.DashboardAuto.DashboardAutomationTest" />
-      <option name="METHOD_NAME" value="DashAuto" />
+      <option name="PACKAGE_NAME" value="main.java.AddRecipientAuto" />
+      <option name="MAIN_CLASS_NAME" value="main.java.AddRecipientAuto.AddRecipientOTCCashTx" />
+      <option name="METHOD_NAME" value="OTCCashTrans" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -113,16 +79,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocUploadVerifyAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateContactAuto" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.DocumentUploadVerificationAuto.*" />
+          <option name="PATTERN" value="main.java.EditContactDetails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.DocumentUploadVerificationAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.DocumentUploadVerificationAuto.DocUploadVerifyAuto" />
+      <option name="PACKAGE_NAME" value="main.java.EditContactDetails" />
+      <option name="MAIN_CLASS_NAME" value="main.java.EditContactDetails.UpdateContactAuto" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -130,17 +96,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DocUploadVerifyAuto.UploadAutoDemo" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateContactAuto.editContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ATLMoneyWebAuto" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="main.java.DocumentUploadVerificationAuto.*" />
+          <option name="PATTERN" value="main.java.EditContactDetails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="main.java.DocumentUploadVerificationAuto" />
-      <option name="MAIN_CLASS_NAME" value="main.java.DocumentUploadVerificationAuto.DocUploadVerifyAuto" />
-      <option name="METHOD_NAME" value="UploadAutoDemo" />
+      <option name="PACKAGE_NAME" value="main.java.EditContactDetails" />
+      <option name="MAIN_CLASS_NAME" value="main.java.EditContactDetails.UpdateContactAuto" />
+      <option name="METHOD_NAME" value="editContact" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProfileAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATLMoneyWebAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.EditProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.EditProfile" />
+      <option name="MAIN_CLASS_NAME" value="main.java.EditProfile.UpdateProfileAuto" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateProfileAuto.UpdateProfileAuto" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATLMoneyWebAuto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.java.EditProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.java.EditProfile" />
+      <option name="MAIN_CLASS_NAME" value="main.java.EditProfile.UpdateProfileAuto" />
+      <option name="METHOD_NAME" value="UpdateProfileAuto" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -150,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DocUploadVerifyAuto.UploadAutoDemo" />
-        <item itemvalue="TestNG.DocUploadVerifyAuto" />
-        <item itemvalue="TestNG.DashboardAutomationTest.DashAuto" />
-        <item itemvalue="TestNG.DashboardAutomationTest (2)" />
-        <item itemvalue="TestNG.DashboardAutomationTest (1)" />
+        <item itemvalue="TestNG.UpdateContactAuto.editContact" />
+        <item itemvalue="TestNG.UpdateContactAuto" />
+        <item itemvalue="TestNG.AddRecipientOTCCashTx.OTCCashTrans" />
+        <item itemvalue="TestNG.UpdateProfileAuto.UpdateProfileAuto" />
+        <item itemvalue="TestNG.UpdateProfileAuto" />
       </list>
     </recent_temporary>
   </component>

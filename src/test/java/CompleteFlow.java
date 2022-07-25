@@ -17,7 +17,7 @@ public class CompleteFlow extends ConfigAuto {
         driver.findElement(By.id("email")).sendKeys("qa9999@yopmail.com");
         driver.findElement(By.id("password")).sendKeys("Qa123!");
         driver.findElement(By.xpath("//i[@id='eye2']")).click();
-        driver.findElement(By.id("confirm-password")).sendKeys("Qa123!");
+        driver.findElement(By.id("confirm-password")).sendKeys("Qa123!@");
         driver.findElement(By.xpath("//i[@id='eye3']")).click();
         driver.findElement(By.className("btn-register")).click();
 

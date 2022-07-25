@@ -27,7 +27,7 @@ public class DocUploadVerifyAuto extends ConfigAuto {
             throw new RuntimeException(e);
         }
         driver.findElement(By.id("email")).sendKeys("qa222@yopmail.com");
-        driver.findElement(By.id("inputPassword")).sendKeys("Qa123!");
+        driver.findElement(By.id("inputPassword")).sendKeys("Qa123!@");
         driver.findElement(By.xpath("//i[@id='eye']")).click();
         driver.findElement(By.className("btn-login")).click();
 
@@ -65,10 +65,30 @@ public class DocUploadVerifyAuto extends ConfigAuto {
 
         File f = null;
         try {
-            f = new File("C:\\Users\\Promit\\Downloads\\6CE3785C-D815-4409-BE03-359C31E536BD.jpg");
+            f = new File("\"C:\\Users\\Promit\\Downloads\\2ec386d989ba3de1b6df1065c8202f78.jpg\"");
         } catch (Exception e) {
             e.printStackTrace();
         }
         filePicker(f.getPath());
+
+        WebElement element2= driver.findElement(By.xpath("//*[@id=\"upload-form\"]/div[2]/div[1]/div[2]/div/div[2]/div[2]/label"));
+        element2.click();
+        File f2 = null;
+        try {
+            f2 = new File("\"C:\\Users\\Promit\\Downloads\\signature.png\"");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        filePicker(f2.getPath());
+
+
+
+        //verifying document
+
+        driver.findElement(By.xpath("//*[@id=\"upload-form\"]/div[2]/div[3]/div[2]/button")).click();
+
+        //navigating back
+        driver.findElement(By.xpath("//*[@id=\"upload-form\"]/div[2]/div[3]/div[1]/a")).click();
+        driver.findElement(By.xpath("//*[@id=\"pills-transfer\"]/div[3]/div/a[2]")).click();
     }
 }
